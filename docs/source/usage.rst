@@ -12,6 +12,12 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
 
+.. code-block:: python
+   :linenos:
+
+    def greet(name):
+        print(f"Hello, {name}!")
+
 Creating recipes
 ----------------
 
