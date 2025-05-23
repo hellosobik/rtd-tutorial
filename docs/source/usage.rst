@@ -22,6 +22,12 @@ To use Lumache, first install it using pip:
       y=x+2
       z=x+y
          
+.. code-block:: python :hl_lines: 2,3
+   def my_function(x):
+       if x > 5:
+           return "Greater than 5"
+       else:
+           return "Not greater than 5"
 
 Creating recipes
 ----------------
