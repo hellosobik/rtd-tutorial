@@ -11,16 +11,6 @@ To use Lumache, first install it using pip:
 .. code-block:: console
 
    (.venv) $ pip install lumache
-
-.. code-block:: python
-   :linenos:
-   :hl_lines: 2,3
-
-   def greet(name):
-      print(f"Hello, {name}!")
-      x=4
-      y=x+2
-      z=x+y
          
 .. code-block:: python :hl_lines: 2,3
    def my_function(x):
