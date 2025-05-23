@@ -12,12 +12,10 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
          
-.. code-block:: python :hl_lines: 2,3
-   def my_function(x):
-       if x > 5:
-           return "Greater than 5"
-       else:
-           return "Not greater than 5"
+.. code-block:: python
+
+   def hello():
+       print("Hello, world!")
 
 Creating recipes
 ----------------
