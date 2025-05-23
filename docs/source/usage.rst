@@ -14,9 +14,14 @@ To use Lumache, first install it using pip:
 
 .. code-block:: python
    :linenos:
+   :hl_lines: 2,3
 
-    def greet(name):
-        print(f"Hello, {name}!")
+   def greet(name):
+      print(f"Hello, {name}!")
+      x=4
+      y=x+2
+      z=x+y
+         
 
 Creating recipes
 ----------------
