@@ -6,7 +6,6 @@ Sample Code
 
 .. code-block:: python
     :linenos:
-    :emphasize-lines: 1
 
     import time
     from data_modules.object_handler import current_app, nav, keypad_state_manager, menu, menu_refresh, typer, keymap, display
@@ -42,24 +41,14 @@ Sample Code
             print(f"Error: {e}")
 
 
+Imported Modules
+----------------------
 
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 1-3
 
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :func:`lumache.get_random_ingredients`
-will raise an exception.
-
-For example:
-
-.. code-block:: pycon
-
-    >>> import lumache
-    >>> lumache.get_random_ingredients()
-    ['shells', 'gorgonzola', 'parsley']
-
+    import time
+    from data_modules.object_handler import current_app, nav, keypad_state_manager, menu, menu_refresh, typer, keymap, display
+    from application_modules.backlight import backlight, backlight_pin
+    
