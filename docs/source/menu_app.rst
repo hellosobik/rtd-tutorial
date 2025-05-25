@@ -1,6 +1,7 @@
 Menu Buffer
-=====
+============
 
+.. _installation:
 Installation
 ------------
 
