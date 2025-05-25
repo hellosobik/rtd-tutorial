@@ -5,7 +5,6 @@ Sample Code
 -----------
 
 .. code-block:: python
-
     :linenos:
     :emphasize-lines: 1
 
