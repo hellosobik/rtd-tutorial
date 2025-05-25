@@ -8,9 +8,6 @@ Sample Code
     :linenos:
     :emphasize-lines: 1
 
-    def hello():
-        print("Hello, world!")
-
     import time
     from data_modules.object_handler import current_app, nav, keypad_state_manager, menu, menu_refresh, typer, keymap, display
     from application_modules.backlight import backlight, backlight_pin
