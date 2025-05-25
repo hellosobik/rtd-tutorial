@@ -20,3 +20,7 @@ Contents
 
    usage
    api
+   form_app
+   menu_app
+   text_app
+

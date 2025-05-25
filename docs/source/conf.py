@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'CalSci SDK'
+copyright = '2025, CalSci.io'
+author = 'CalSci Software Team'
 
 release = '0.1'
 version = '0.1.0'
