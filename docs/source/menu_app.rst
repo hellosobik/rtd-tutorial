@@ -40,6 +40,7 @@ Sample Code
         except Exception as e:
             print(f"Error: {e}")
 
+its the code of settings menu
 
 Imported Modules
 ----------------------
