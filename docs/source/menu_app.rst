@@ -26,7 +26,7 @@ To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
 
 The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, `lumache.get_random_ingredients`
+or ``"veggies"``. Otherwise, :func:`lumache.get_random_ingredients`
 will raise an exception.
 
 For example:
