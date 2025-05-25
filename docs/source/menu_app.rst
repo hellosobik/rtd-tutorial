@@ -6,6 +6,7 @@ Sample Code
 
 .. code-block:: python
     :linenos:
+    :caption: code of settings app
 
     import time
     from data_modules.object_handler import current_app, nav, keypad_state_manager, menu, menu_refresh, typer, keymap, display
@@ -40,7 +41,6 @@ Sample Code
         except Exception as e:
             print(f"Error: {e}")
 
-its the code of settings menu
 
 Imported Modules
 ----------------------
@@ -48,6 +48,7 @@ Imported Modules
 .. code-block:: python
     :linenos:
     :emphasize-lines: 1-3
+    :lineno-start: 10
 
     import time
     from data_modules.object_handler import current_app, nav, keypad_state_manager, menu, menu_refresh, typer, keymap, display
